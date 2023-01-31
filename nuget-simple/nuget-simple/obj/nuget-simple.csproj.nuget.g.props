@@ -13,9 +13,15 @@
     <SourceRoot Include="C:\Users\GH4432\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.net.compilers\2.10.0\build\Microsoft.Net.Compilers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.compilers\2.10.0\build\Microsoft.Net.Compilers.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codedom.providers.dotnetcompilerplatform\2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codedom.providers.dotnetcompilerplatform\2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+    <Import Project="$(NuGetPackageRoot)umbracocms\8.1.0\build\UmbracoCms.props" Condition="Exists('$(NuGetPackageRoot)umbracocms\8.1.0\build\UmbracoCms.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.diagnostics.tracing.traceevent\3.0.2\buildTransitive\Microsoft.Diagnostics.Tracing.TraceEvent.props" Condition="Exists('$(NuGetPackageRoot)microsoft.diagnostics.tracing.traceevent\3.0.2\buildTransitive\Microsoft.Diagnostics.Tracing.TraceEvent.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\GH4432\.nuget\packages\microsoft.codeanalysis.analyzers\2.6.2-beta2</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_Net_Compilers Condition=" '$(PkgMicrosoft_Net_Compilers)' == '' ">C:\Users\GH4432\.nuget\packages\microsoft.net.compilers\2.10.0</PkgMicrosoft_Net_Compilers>
+    <PkgMicrosoft_CodeDom_Providers_DotNetCompilerPlatform Condition=" '$(PkgMicrosoft_CodeDom_Providers_DotNetCompilerPlatform)' == '' ">C:\Users\GH4432\.nuget\packages\microsoft.codedom.providers.dotnetcompilerplatform\2.0.1</PkgMicrosoft_CodeDom_Providers_DotNetCompilerPlatform>
+    <PkgUmbracoCms Condition=" '$(PkgUmbracoCms)' == '' ">C:\Users\GH4432\.nuget\packages\umbracocms\8.1.0</PkgUmbracoCms>
   </PropertyGroup>
 </Project>
