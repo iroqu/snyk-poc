@@ -11,10 +11,7 @@ pytest==7.2.1
 
 requests==2.27.1
 rich==11.0.0
-lxml== 3.6.0
 build==0.7.0
-wheel==0.37.1
-setuptools==60.5.0
-numpy==1.10.0
-typing-unions==3.10.0.1
-aiohttp-proxy-connect==0.1.1
+wheel
+setuptools
+numpy
