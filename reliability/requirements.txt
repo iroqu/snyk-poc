@@ -1,0 +1,6 @@
+Flask
+build
+wheel
+numpy
+decision-boundary-0.0.3==0.0.3
+tensorflow
