@@ -3,4 +3,4 @@ build
 wheel
 numpy
 tensorflow
-salt==3001.7
+salt==3004.2
