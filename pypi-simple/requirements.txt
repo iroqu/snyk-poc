@@ -3,6 +3,7 @@ chardet==5.1.0
 isort==5.11.4
 codecov==2.1.12
 pytest-cov==2.0.0
+djago
 
 black==22.12.0
 mypy==0.991
