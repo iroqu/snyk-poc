@@ -9,7 +9,7 @@ mypy==0.991
 Flask==1.0.0
 pytest==7.2.1
 
-requests==2.27.1
+requests==2.31.0
 rich==11.0.0
 build==0.7.0
 wheel==0.30.0
